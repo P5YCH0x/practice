@@ -1,0 +1,12 @@
+.mainhead {
+    color: crimson;
+    background-color: black;
+    text-align: center;
+    font-size: 32px;
+    padding: 16px;
+}
+
+.practice-items li:hover{
+    color: green;
+    font-size: 32px;
+}

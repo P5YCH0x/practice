@@ -1,0 +1,40 @@
+body {
+    height: 200vh;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#mainhead{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: crimson;
+    padding: 5px;
+    text-align: center;
+}
+
+#box{
+    background-color: red;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+#box:active {
+    display: none;
+}
+
+#triangle{
+    height: 0;
+    width: 0;
+    border-top: 20px solid yellow;
+    border-left: 20px solid black;
+    border-right: 20px solid brown;
+    border-bottom: 20px solid red;
+    margin: 10px;
+    position: sticky;
+    top: 100px;
+}
