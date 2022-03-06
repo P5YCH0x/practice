@@ -5,6 +5,15 @@
     box-shadow: 0 0 20px 5px;
 }
 
-.people{
+.center{
     text-align: center;
+}
+
+.noMargin{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.counter-btn{
+    width: 100%;
 }
