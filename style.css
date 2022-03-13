@@ -13,6 +13,7 @@ body {
     color: crimson;
     padding: 5px;
     text-align: center;
+    z-index: 10;
 }
 
 #box{
@@ -40,7 +41,13 @@ body {
 }
 
 
+
+
+/* Menu start */
+
 .menu-container{
+    margin-left: 30%;
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.856);
     height: 400px;
     width: 700px;
@@ -80,7 +87,7 @@ body {
 }
 
 
-
+/* Menu end */
 
 
 
