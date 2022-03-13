@@ -7,6 +7,7 @@
     <title>Javascript</title>
 </head>
 <body>
+    <!--Counter start-->
     <div class="card">
         <h1 class="center">people :</h1>
         <hr class="noMargin">
@@ -14,6 +15,12 @@
         <button class="counter-btn" onclick="increment()">INCREMENT</button>
         <button class="counter-btn" onclick="save()">SAVE</button>
         <p id="prev-el" class="noMargin">Previous entries: </p>
+      </div>
+      <!--Counter end-->
+
+      <div id="ice-cream-container">
+          <button class="counter-btn" id="make-ice-cream">Make</button>
+          <button class="counter-btn" id="ice-clear" onclick="iceCreamClear()">Clear</button>
       </div>
       
       <script src="javascript.js"></script>

@@ -17,3 +17,15 @@
 .counter-btn{
     width: 100%;
 }
+
+#ice-cream-container{
+    width: 200px;
+    height: 400px;
+    margin: auto;
+    background-color: gray;
+    overflow: hidden;
+}
+
+.ice-ele{
+    font-size: 16px;
+}
