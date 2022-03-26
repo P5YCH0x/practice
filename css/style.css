@@ -91,6 +91,47 @@ body {
 
 
 
+/* Hidden Button start */
+
+
+.hidden-button-container{
+    text-align: center;
+    margin: 100px;
+    box-shadow: 0 0 20px;
+}
+
+.hidden-button-text{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    background-color: white;
+}
+
+.hidden-button-text p{
+    background-image: linear-gradient(180deg, black, wheat);
+    font-weight: bold;
+    background-clip: text;
+    font-size: 2rem;
+    color: transparent;
+}
+
+#hidden-button{
+    position: sticky;
+    bottom: 200px;
+    font-size: 5rem;
+    z-index: -1;
+
+    background-color: wheat;
+}
+
+#hidden-button span{
+    background-image: linear-gradient(45deg, magenta, blue, magenta);
+    background-clip: text;
+    color: transparent;
+}
+
+/* Hidden Button end */
+
+
 
 
 @keyframes shake{
